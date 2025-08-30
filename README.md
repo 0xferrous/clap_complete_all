@@ -11,6 +11,10 @@ However, there is another official crate `clap_complete_nushell` that provides t
 This crate wraps the `clap_complete::aot::Shell` and provides the same API so that usage is just
 replacing `clap_complete::aot::Shell` with `clap_complete_all::Shell`.
 
+> [!NOTE]
+> There is already a published crate that provides similar functionality: [nihaals/clap-complete-command](https://github.com/nihaals/clap-complete-command).
+> Consider using it instead maybe.
+
 ## Minimal Example
 
 ```rust
