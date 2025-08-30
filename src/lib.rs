@@ -1,7 +1,7 @@
 use clap_complete::{Shell as ClapCompleteShell, aot::Generator};
 use clap_complete_nushell::Nushell;
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Debug)]
 pub enum Shell {
     ClapCompleteShell(ClapCompleteShell),
     Nushell,
